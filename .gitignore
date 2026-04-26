@@ -1,16 +1,41 @@
-# Compiled class file
+# =========================
+# Python (AI Service)
+# =========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python env files
+.env
+
+# =========================
+# Java (Backend)
+# =========================
+# Maven / Gradle build outputs
+target/
+build/
 *.class
 
-# Log file
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
 
-# Package Files #
+# =========================
+# Archives
+# =========================
 *.jar
 *.war
 *.nar
@@ -18,7 +43,3 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
